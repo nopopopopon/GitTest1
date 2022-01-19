@@ -50,7 +50,7 @@ namespace GitTest1
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(566, 193);
             this.textBox1.TabIndex = 1;
-            this.textBox1.Text = "Gitにいれたところ→commit\r\nslnを直接あけて修正\r\n再度あけて修正してcommit\r\n";
+            this.textBox1.Text = "Gitにいれたところ→commit\r\nslnを直接あけて修正\r\n再度あけて修正してcommit\r\nVS2022側でタイトルバー変更してcommit\r\n";
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // Form1
@@ -61,7 +61,7 @@ namespace GitTest1
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "タイトルバー変更";
             this.ResumeLayout(false);
             this.PerformLayout();
 

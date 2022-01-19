@@ -46,9 +46,12 @@ namespace GitTest1
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(79, 113);
+            this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(566, 19);
+            this.textBox1.Size = new System.Drawing.Size(566, 193);
             this.textBox1.TabIndex = 1;
+            this.textBox1.Text = "Gitにいれたところ→commit";
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // Form1
             // 
